@@ -1,0 +1,5 @@
+<svg width="100" height="40" viewBox="0 0 100 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="40" rx="4" fill="#1A1A1A"/>
+  <path d="M15 20H85M50 10V30" stroke="#D1D1D1" stroke-width="2"/>
+  <text x="50" y="25" font-family="Arial" font-size="8" fill="#D1D1D1" text-anchor="middle">AMEX</text>
+</svg> 

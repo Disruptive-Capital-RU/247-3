@@ -1,54 +1,74 @@
-# React + TypeScript + Vite
+# Moscow Luxury Concierge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A state-of-the-art React application for an elite concierge service tailored specifically for affluent Arab tourists visiting Moscow.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Elegant UI design inspired by American Express Centurion Card aesthetic
+- Responsive design for optimal viewing across all devices
+- Smooth animations and transitions powered by Framer Motion
+- Interactive components built with ShadCN UI and Tailwind CSS
+- Complete user journey from discovery to booking
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React.js - Frontend library
+- Vite - Build tool and development environment
+- Tailwind CSS - Utility-first CSS framework
+- ShadCN UI - Component library
+- Framer Motion - Animation library
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Getting Started
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Prerequisites
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Node.js (v16 or later)
+- npm or pnpm
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Installation
+
+1. Clone the repository
+
+   ```
+   git clone <repository-url>
+   ```
+
+2. Install dependencies
+
+   ```
+   pnpm install
+   ```
+
+3. Start the development server
+   ```
+   pnpm dev
+   ```
+
+## Project Structure
+
+- `/public` - Static assets (images, videos)
+- `/src` - Source code
+  - `/components` - UI components
+    - `/ui` - ShadCN UI components
+  - `/assets` - Local assets
+  - `/lib` - Utility functions and constants
+
+## Implementation Notes
+
+This project showcases a luxury concierge service with the following key sections:
+
+1. Hero Section - Video background with elegant typography
+2. How It Works - Step-by-step process explanation
+3. Services - Showcasing the exclusive offerings
+4. Testimonials - Client experiences in a horizontal scrolling layout
+5. Booking Form - Sophisticated multi-step booking process
+6. FAQ Section - Answers to common questions
+7. Footer - Contact information and subscription form
+
+## Customization
+
+Replace placeholder assets in the `/public` directory with high-quality images and videos that showcase Moscow's luxury experiences targeted at Arab tourists.
+
+## License
+
+This project is licensed under the MIT License.
